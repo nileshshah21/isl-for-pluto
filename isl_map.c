@@ -14678,3 +14678,26 @@ __isl_give isl_basic_set *isl_basic_set_transform_dims(
 {
 	return isl_basic_map_transform_dims(bset, type, first, trans);
 }
+
+/* Given a map A -> [B -> C], extract the map A -> B.
+ */
+__isl_give isl_basic_map *isl_basic_map_range_factor_domain(__isl_take isl_basic_map *bmap)
+{
+       isl_space *space;
+      int total, keep;
+
+       if (!bmap)
+               return NULL;
+       if (!isl_space_range_is_wrapping(bmap->dim))
+               isl_die(isl_basic_map_get_ctx(bmap), isl_error_invalid,
+                       "range is not a product", return isl_basic_map_free(bmap));
+
+       space = isl_basic_map_get_space(bmap);
+       total = isl_space_dim(space, isl_dim_out);
+       space = isl_space_range_factor_domain(space);
+       keep = isl_space_dim(space, isl_dim_out);
+       bmap = isl_basic_map_project_out(bmap, isl_dim_out, keep, total - keep);
+       bmap = isl_basic_map_reset_space(bmap, space);
+
+       return bmap;
+}
