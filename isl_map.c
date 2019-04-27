@@ -12068,6 +12068,29 @@ isl_bool isl_map_is_single_valued(__isl_keep isl_map *map)
 	return sv;
 }
 
+/* Check if 'map' is single-valued along a particular dimension */
+isl_bool isl_map_dim_is_single_valued(__isl_keep isl_map *map, int pos)
+{
+    int sv, n_out;
+    isl_map *tmap;
+
+    n_out = isl_map_dim(map, isl_dim_out);
+
+    if (pos < 0 || pos >= n_out) {
+        isl_die(isl_map_get_ctx(map), isl_error_invalid,
+           "dim position out of bounds", return 0);
+    }
+
+    tmap = isl_map_project_out(isl_map_copy(map), isl_dim_out,
+            pos+1, n_out-pos-1);
+    tmap = isl_map_project_out(tmap, isl_dim_out, 0, pos);
+
+    sv = isl_map_is_single_valued(tmap);
+    isl_map_free(tmap);
+
+    return sv;
+}
+
 isl_bool isl_map_is_injective(__isl_keep isl_map *map)
 {
 	isl_bool in;

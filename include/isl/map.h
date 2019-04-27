@@ -618,6 +618,7 @@ isl_bool isl_basic_map_is_single_valued(__isl_keep isl_basic_map *bmap);
 isl_bool isl_map_plain_is_single_valued(__isl_keep isl_map *map);
 __isl_export
 isl_bool isl_map_is_single_valued(__isl_keep isl_map *map);
+isl_bool isl_map_dim_is_single_valued(__isl_keep isl_map *map, int pos);
 isl_bool isl_map_plain_is_injective(__isl_keep isl_map *map);
 __isl_export
 isl_bool isl_map_is_injective(__isl_keep isl_map *map);
