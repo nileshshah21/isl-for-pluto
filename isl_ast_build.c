@@ -376,9 +376,9 @@ __isl_give isl_ast_build *isl_ast_build_set_iterators(
 	if (n_it < dim)
 		isl_die(isl_ast_build_get_ctx(build), isl_error_internal,
 			"isl_ast_build in inconsistent state", goto error);
-	if (n_it > dim)
+	if (n_it >= dim)
 		build->iterators = isl_id_list_drop(build->iterators,
-							dim, n_it - dim);
+							0, n_it);
 	build->iterators = isl_id_list_concat(build->iterators, iterators);
 	if (!build->iterators)
 		return isl_ast_build_free(build);
