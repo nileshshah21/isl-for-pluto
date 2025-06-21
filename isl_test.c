@@ -36,7 +36,7 @@
 #include "isl/schedule_node.h"
 #include <isl_options_private.h>
 #include <isl_vertices_private.h>
-#include "isl/arg_build.h"
+#include "isl/ast_build.h"
 #include "isl/val.h"
 #include "isl/ilp.h"
 #include <isl_ast_build_expr.h>
