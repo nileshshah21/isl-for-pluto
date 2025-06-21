@@ -6,7 +6,7 @@
 #include "isl/list.h"
 #include "isl/multi.h"
 #include "isl/printer_type.h"
-#include stdint.h
+#include <stdint.h>
 
 #if defined(__cplusplus)
 extern "C" {

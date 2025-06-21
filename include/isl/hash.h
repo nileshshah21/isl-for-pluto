@@ -11,7 +11,7 @@
 #define ISL_HASH_H
 
 #include <stdlib.h>
-#include stdint.h
+#include <stdint.h>
 #include "isl/ctx.h"
 
 #if defined(__cplusplus)

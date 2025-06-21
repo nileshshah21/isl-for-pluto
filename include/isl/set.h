@@ -18,7 +18,7 @@
 #include "isl/point.h"
 #include "isl/local_space.h"
 #include "isl/val_type.h"
-#include stdint.h
+#include <stdint.h>
 #include "isl/stride_info.h"
 #include "isl/fixed_box.h"
 

@@ -1,7 +1,7 @@
 #ifndef ISL_AFF_H
 #define ISL_AFF_H
 
-#include stdint.h
+#include <stdint.h>
 #include "isl/local_space.h"
 #include "isl/printer.h"
 #include "isl/id_type.h"

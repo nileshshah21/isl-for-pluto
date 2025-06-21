@@ -1,7 +1,7 @@
 #ifndef ISL_UNION_MAP_H
 #define ISL_UNION_MAP_H
 
-#include stdint.h
+#include <stdint.h>
 #include "isl/space_type.h"
 #include "isl/aff_type.h"
 #include "isl/map_type.h"
