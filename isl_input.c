@@ -23,14 +23,14 @@
 #include "isl/set.h"
 #include <isl_seq.h>
 #include <isl_stream_private.h>
-#include <isl/obj.h>
+#include "isl/obj.h"
 #include "isl_polynomial_private.h"
 #include "isl/union_set.h"
 #include "isl/union_map.h"
 #include <isl_mat_private.h>
 #include <isl_aff_private.h>
 #include <isl_vec_private.h>
-#include <isl/list.h>
+#include "isl/list.h"
 #include <isl_val_private.h>
 
 struct variable {

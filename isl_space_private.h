@@ -2,8 +2,8 @@
 #define ISL_SPACE_PRIVATE
 
 #include "isl/space.h"
-#include <isl/hash.h>
-#include <isl/id_type.h>
+#include "isl/hash.h"
+#include "isl/id_type.h"
 #include "isl/stream.h"
 
 struct isl_name;

@@ -11,8 +11,8 @@
  * and Ecole Normale Superieure, 45 rue d’Ulm, 75230 Paris, France
  */
 
-#include <isl/id.h>
-#include <isl/aff.h>
+#include "isl/id.h"
+#include "isl/aff.h"
 #include <isl_sort.h>
 #include <isl_val_private.h>
 

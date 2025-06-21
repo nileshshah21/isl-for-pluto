@@ -13,7 +13,7 @@
 #include <string.h>
 #include "isl/val.h"
 #include "isl/space.h"
-#include <isl/map.h>
+#include "isl/map.h"
 #include "isl/schedule_node.h"
 #include <isl_schedule_band.h>
 #include <isl_schedule_private.h>

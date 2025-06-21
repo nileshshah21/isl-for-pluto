@@ -16,8 +16,8 @@
 #include <isl_map_private.h>
 #include <isl_seq.h>
 #include "isl/set.h"
-#include <isl/lp.h>
-#include <isl/map.h>
+#include "isl/lp.h"
+#include "isl/map.h"
 #include "isl_equalities.h"
 #include "isl_sample.h"
 #include "isl_tab.h"

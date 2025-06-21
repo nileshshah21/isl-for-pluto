@@ -10,7 +10,7 @@
  * and Ecole Normale Superieure, 45 rue d'Ulm, 75230 Paris, France
  */
 
-#include <isl/hash.h>
+#include "isl/hash.h"
 #include <isl_union_macro.h>
 
 /* A union of expressions defined over different domain spaces.

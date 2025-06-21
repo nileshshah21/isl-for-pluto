@@ -1,7 +1,7 @@
 #ifndef ISL_LOCAL_H
 #define ISL_LOCAL_H
 
-#include <isl/mat.h>
+#include "isl/mat.h"
 #include <isl_reordering.h>
 
 typedef isl_mat isl_local;

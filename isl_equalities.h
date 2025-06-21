@@ -11,7 +11,7 @@
 #define ISL_EQUALITIES_H
 
 #include "isl/set.h"
-#include <isl/mat.h>
+#include "isl/mat.h"
 
 #if defined(__cplusplus)
 extern "C" {

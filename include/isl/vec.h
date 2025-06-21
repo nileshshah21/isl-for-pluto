@@ -12,7 +12,7 @@
 
 #include <stdio.h>
 
-#include <isl/ctx.h>
+#include "isl/ctx.h"
 #include "isl/val_type.h"
 #include "isl/printer.h"
 

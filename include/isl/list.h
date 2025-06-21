@@ -10,7 +10,7 @@
 #ifndef ISL_LIST_H
 #define ISL_LIST_H
 
-#include <isl/ctx.h>
+#include "isl/ctx.h"
 #include "isl/printer_type.h"
 
 #if defined(__cplusplus)

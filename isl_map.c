@@ -27,13 +27,13 @@
 #include <isl_map_private.h>
 #include <isl_blk.h>
 #include <isl_id_private.h>
-#include <isl/constraint.h>
+#include "isl/constraint.h"
 #include "isl_space_private.h"
 #include "isl_equalities.h"
 #include <isl_lp_private.h>
 #include <isl_seq.h>
 #include "isl/set.h"
-#include <isl/map.h>
+#include "isl/map.h"
 #include <isl_reordering.h>
 #include "isl_sample.h"
 #include <isl_sort.h>

@@ -8,7 +8,7 @@
 #ifndef ISL_CPP
 #define ISL_CPP
 
-#include <isl/ctx.h>
+#include "isl/ctx.h"
 #include "isl/options.h"
 
 #include <functional>

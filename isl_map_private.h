@@ -15,11 +15,11 @@
 #define isl_set		isl_map
 #define isl_basic_set_list	isl_basic_map_list
 #define isl_set_list	isl_map_list
-#include <isl/list.h>
+#include "isl/list.h"
 #include "isl/set.h"
-#include <isl/map.h>
+#include "isl/map.h"
 #include <isl_reordering.h>
-#include "isl/vec.h"
+#include <isl/vec.h>
 #include <isl/hash.h>
 #include <isl_blk.h>
 

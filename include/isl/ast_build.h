@@ -1,9 +1,9 @@
 #ifndef ISL_AST_BUILD_H
 #define ISL_AST_BUILD_H
 
-#include <isl/ctx.h>
+#include "isl/ctx.h"
 #include "isl/set.h"
-#include <isl/ast.h>
+#include "isl/arg.h"
 #include "isl/schedule.h"
 
 #if defined(__cplusplus)

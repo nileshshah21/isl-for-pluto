@@ -1,11 +1,11 @@
 #ifndef ISL_AST_BUILD_PRIVATE_H
 #define ISL_AST_BUILD_PRIVATE_H
 
-#include <isl/aff.h>
-#include <isl/ast.h>
-#include <isl/ast_build.h>
+#include "isl/aff.h"
+#include "isl/arg.h"
+#include "isl/arg_build.h"
 #include "isl/set.h"
-#include <isl/list.h>
+#include "isl/list.h"
 #include "isl/schedule_node.h"
 
 /* An isl_ast_build represents the context in which AST is being

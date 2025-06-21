@@ -1,8 +1,8 @@
 #ifndef ISL_SCHEDULE_BAND_H
 #define ISL_SCHEDULE_BAND_H
 
-#include <isl/aff.h>
-#include <isl/ast_type.h>
+#include "isl/aff.h"
+#include "isl/arg_type.h"
 #include "isl/union_map.h"
 
 /* Information about a band within a schedule.

@@ -11,8 +11,8 @@
 #include <string.h>
 #include <isl_ctx_private.h>
 #include <isl_stream_private.h>
-#include <isl/map.h>
-#include <isl/aff.h>
+#include "isl/map.h"
+#include "isl/aff.h"
 #include <isl_val_private.h>
 #include <isl_options_private.h>
 

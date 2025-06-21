@@ -8,7 +8,7 @@
 
 #include <stdio.h>
 
-#include <isl/ctx.h>
+#include "isl/ctx.h"
 #include "isl/schedule_node.h"
 #include "isl/union_set.h"
 

@@ -1,8 +1,8 @@
 #ifndef ISL_AST_BUILD_EXPR_PRIVATE_H
 #define ISL_AST_BUILD_EXPR_PRIVATE_H
 
-#include <isl/ast.h>
-#include <isl/ast_build.h>
+#include "isl/arg.h"
+#include "isl/arg_build.h"
 
 __isl_give isl_ast_expr *isl_ast_build_expr_from_basic_set(
 	 __isl_keep isl_ast_build *build, __isl_take isl_basic_set *bset);

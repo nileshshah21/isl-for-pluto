@@ -10,7 +10,7 @@
 #include <isl_map_private.h>
 #include <isl_seq.h>
 #include "isl/set.h"
-#include <isl/map.h>
+#include "isl/map.h"
 #include "isl_tab.h"
 #include <isl_point_private.h>
 #include <isl_vec_private.h>

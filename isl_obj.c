@@ -14,14 +14,14 @@
  */
 
 #include "isl/val.h"
-#include <isl/aff.h>
+#include "isl/aff.h"
 #include "isl/set.h"
-#include <isl/map.h>
+#include "isl/map.h"
 #include "isl/union_set.h"
 #include "isl/union_map.h"
 #include "isl/polynomial.h"
 #include "isl/schedule.h"
-#include <isl/obj.h>
+#include "isl/obj.h"
 
 static void *isl_obj_val_copy(void *v)
 {

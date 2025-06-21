@@ -10,7 +10,7 @@
 #ifndef ISL_ID_PRIVATE_H
 #define ISL_ID_PRIVATE_H
 
-#include <isl/id.h>
+#include "isl/id.h"
 #include "isl/stream.h"
 
 /* Represent a name and/or user pointer.

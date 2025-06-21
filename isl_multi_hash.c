@@ -7,7 +7,7 @@
  */
 
 #include <isl_multi_macro.h>
-#include <isl/hash.h>
+#include "isl/hash.h"
 
 /* Return a hash value that digests "multi".
  */

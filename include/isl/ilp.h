@@ -10,7 +10,7 @@
 #ifndef ISL_ILP_H
 #define ISL_ILP_H
 
-#include <isl/aff_type.h>
+#include "isl/aff_type.h"
 #include "isl/set_type.h"
 #include "isl/union_set_type.h"
 #include "isl/val_type.h"

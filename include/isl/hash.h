@@ -12,7 +12,7 @@
 
 #include <stdlib.h>
 #include <isl/stdint.h>
-#include <isl/ctx.h>
+#include "isl/ctx.h"
 
 #if defined(__cplusplus)
 extern "C" {

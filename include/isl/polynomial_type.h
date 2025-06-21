@@ -1,8 +1,8 @@
 #ifndef ISL_POLYNOMIAL_TYPE_H
 #define ISL_POLYNOMIAL_TYPE_H
 
-#include <isl/ctx.h>
-#include <isl/list.h>
+#include "isl/ctx.h"
+#include "isl/list.h"
 
 struct isl_qpolynomial;
 typedef struct isl_qpolynomial isl_qpolynomial;

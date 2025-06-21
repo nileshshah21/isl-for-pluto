@@ -11,10 +11,10 @@
  * and Ecole Normale Superieure, 45 rue d'Ulm, 75230 Paris, France
  */
 
-#include <isl/ctx.h>
+#include "isl/ctx.h"
 #include "isl/val.h"
 #include <isl_aff_private.h>
-#include <isl/map.h>
+#include "isl/map.h"
 #include "isl/set.h"
 #include "isl/schedule.h"
 #include "isl/schedule_node.h"

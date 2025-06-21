@@ -5,10 +5,10 @@
 #ifndef ISL_FIXED_BOX_H
 #define ISL_FIXED_BOX_H
 
-#include <isl/ctx.h>
+#include "isl/ctx.h"
 #include "isl/val_type.h"
 #include "isl/space_type.h"
-#include <isl/aff_type.h>
+#include "isl/aff_type.h"
 
 #if defined(__cplusplus)
 extern "C" {

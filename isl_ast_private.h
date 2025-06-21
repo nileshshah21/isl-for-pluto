@@ -1,12 +1,12 @@
 #ifndef ISL_AST_PRIVATE_H
 #define ISL_AST_PRIVATE_H
 
-#include <isl/aff.h>
-#include <isl/ast.h>
+#include "isl/aff.h"
+#include "isl/arg.h"
 #include "isl/set.h"
-#include <isl/map.h>
+#include "isl/map.h"
 #include "isl/vec.h"
-#include <isl/list.h>
+#include "isl/list.h"
 #include "isl/stream.h"
 
 #undef EL

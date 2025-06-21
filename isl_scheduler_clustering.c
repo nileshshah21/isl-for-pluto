@@ -8,7 +8,7 @@
 
 #include "isl_map_private.h"
 
-#include <isl/id.h>
+#include "isl/id.h"
 #include "isl/schedule_node.h"
 #include "isl/union_set.h"
 

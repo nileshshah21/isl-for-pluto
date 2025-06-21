@@ -2,13 +2,13 @@
 #define ISL_AFF_H
 
 #include <isl/stdint.h>
-#include <isl/local_space.h>
+#include "isl/lp_space.h"
 #include "isl/printer.h"
-#include <isl/id_type.h>
+#include "isl/id_type.h"
 #include "isl/set_type.h"
-#include <isl/aff_type.h>
-#include <isl/list.h>
-#include <isl/multi.h>
+#include "isl/aff_type.h"
+#include "isl/list.h"
+#include "isl/multi.h"
 #include "isl/union_set_type.h"
 #include "isl/val_type.h"
 #include "isl/point.h"

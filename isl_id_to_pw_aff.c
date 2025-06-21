@@ -1,5 +1,5 @@
-#include <isl/id_to_pw_aff.h>
-#include <isl/id.h>
+#include "isl/id_to_pw_aff.h"
+#include "isl/id.h"
 
 #include "isl_aff_private.h"
 
@@ -18,4 +18,4 @@
 #define ISL_KEY_READ		isl_stream_read_id
 #define ISL_VAL_READ		isl_stream_read_pw_aff
 
-#include <isl/hmap_templ.c>
+#include "isl/hmap_templ.c"

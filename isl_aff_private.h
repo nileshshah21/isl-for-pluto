@@ -1,10 +1,10 @@
 #ifndef ISL_AFF_PRIVATE_H
 #define ISL_AFF_PRIVATE_H
 
-#include <isl/aff.h>
+#include "isl/aff.h"
 #include "isl/vec.h"
-#include <isl/mat.h>
-#include <isl/local_space.h>
+#include "isl/mat.h"
+#include "isl/lp_space.h"
 #include <isl_int.h>
 #include <isl_reordering.h>
 #include "isl/stream.h"

@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <isl_int.h>
-#include <isl/map.h>
-#include <isl/mat.h>
+#include "isl/map.h"
+#include "isl/mat.h"
 #include <isl_morph.h>
 #include "isl/polynomial.h"
 #include <isl_local.h>

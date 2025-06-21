@@ -2,7 +2,7 @@
 #define ISL_LP_PRIVATE_H
 
 #include <isl_int.h>
-#include <isl/lp.h>
+#include "isl/lp.h"
 #include "isl/vec.h"
 
 enum isl_lp_result isl_basic_map_solve_lp(__isl_keep isl_basic_map *bmap,
