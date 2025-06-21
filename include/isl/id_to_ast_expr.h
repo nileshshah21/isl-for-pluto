@@ -2,7 +2,7 @@
 #define ISL_ID_TO_AST_EXPR_H
 
 #include "../id_type.h"
-#include "isl/arg_type.h"
+#include "isl/ast_type.h"
 #include "isl/maybe_ast_expr.h"
 
 #define ISL_KEY		isl_id

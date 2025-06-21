@@ -3,8 +3,8 @@
 
 #include "schedule_type.h"
 #include "isl/union_set_type.h"
-#include "isl/aff_type.h"
-#include "isl/arg_type.h"
+#include "aff_type.h"
+#include "isl/ast_type.h"
 #include "isl/val_type.h"
 #include "isl/space_type.h"
 #include "isl/id_type.h"
