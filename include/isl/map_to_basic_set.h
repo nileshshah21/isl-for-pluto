@@ -1,7 +1,7 @@
 #ifndef ISL_MAP_TO_BASIC_SET_H
 #define ISL_MAP_TO_BASIC_SET_H
 
-#include <isl/set_type.h>
+#include "isl/set_type.h"
 #include <isl/map_type.h>
 #include <isl/maybe_basic_set.h>
 

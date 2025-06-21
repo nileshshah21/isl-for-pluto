@@ -1,14 +1,14 @@
 #ifndef ISL_SCHEDULE_NODE_H
 #define ISL_SCHEDULE_NODE_H
 
-#include <isl/schedule_type.h>
-#include <isl/union_set_type.h>
+#include "schedule_type.h"
+#include "isl/union_set_type.h"
 #include <isl/aff_type.h>
 #include <isl/ast_type.h>
-#include <isl/val_type.h>
-#include <isl/space_type.h>
+#include "isl/val_type.h"
+#include "isl/space_type.h"
 #include <isl/id_type.h>
-#include <isl/set_type.h>
+#include "isl/set_type.h"
 
 #if defined(__cplusplus)
 extern "C" {

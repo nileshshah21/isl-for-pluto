@@ -11,7 +11,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-#include <isl/options.h>
+#include "isl/options.h"
 #include <isl/cpp-checked.h>
 
 namespace isl { using namespace checked; }

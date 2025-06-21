@@ -9,13 +9,13 @@
  */
 
 #include <isl_schedule_constraints.h>
-#include <isl/schedule.h>
-#include <isl/space.h>
-#include <isl/set.h>
+#include "isl/schedule.h"
+#include "isl/space.h"
+#include "isl/set.h"
 #include <isl/map.h>
-#include <isl/union_set.h>
-#include <isl/union_map.h>
-#include <isl/stream.h>
+#include "isl/union_set.h"
+#include "isl/union_map.h"
+#include "isl/stream.h"
 
 /* The constraints that need to be satisfied by a schedule on "domain".
  *

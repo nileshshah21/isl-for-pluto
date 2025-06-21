@@ -10,7 +10,7 @@
  * and Ecole Normale Superieure, 45 rue d'Ulm, 75230 Paris, France
  */
 
-#include <isl/val.h>
+#include "isl/val.h"
 #include <isl_space_private.h>
 #include <isl_point_private.h>
 

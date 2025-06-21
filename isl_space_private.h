@@ -1,10 +1,10 @@
 #ifndef ISL_SPACE_PRIVATE
 #define ISL_SPACE_PRIVATE
 
-#include <isl/space.h>
+#include "isl/space.h"
 #include <isl/hash.h>
 #include <isl/id_type.h>
-#include <isl/stream.h>
+#include "isl/stream.h"
 
 struct isl_name;
 struct isl_space {

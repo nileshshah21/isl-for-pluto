@@ -1,7 +1,7 @@
 #include <isl_ctx_private.h>
-#include <isl/val.h>
+#include "isl/val.h"
 #include <isl_constraint_private.h>
-#include <isl/set.h>
+#include "isl/set.h"
 #include <isl_polynomial_private.h>
 #include <isl_morph.h>
 #include <isl_range.h>

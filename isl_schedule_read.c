@@ -1,7 +1,7 @@
 #include <isl/id.h>
-#include <isl/val.h>
-#include <isl/schedule.h>
-#include <isl/stream.h>
+#include "isl/val.h"
+#include "isl/schedule.h"
+#include "isl/stream.h"
 #include <isl_schedule_private.h>
 #include <isl_schedule_tree.h>
 

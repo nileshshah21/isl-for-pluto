@@ -1,9 +1,9 @@
 #ifndef ISL_POINT_PRIVATE_H
 #define ISL_POINT_PRIVATE_H
 
-#include <isl/space.h>
-#include <isl/point.h>
-#include <isl/vec.h>
+#include "isl/space.h"
+#include "isl/point.h"
+#include "isl/vec.h"
 
 struct isl_point {
 	int		ref;

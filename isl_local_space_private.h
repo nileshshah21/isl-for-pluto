@@ -2,7 +2,7 @@
 #define ISL_LOCAL_SPACE_PRIVATE_H
 
 #include <isl/mat.h>
-#include <isl/set.h>
+#include "isl/set.h"
 #include <isl/local_space.h>
 
 struct isl_local_space {

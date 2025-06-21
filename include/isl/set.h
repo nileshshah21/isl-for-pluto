@@ -15,11 +15,11 @@
 #include <isl/aff_type.h>
 #include <isl/list.h>
 #include <isl/mat.h>
-#include <isl/point.h>
+#include "isl/point.h"
 #include <isl/local_space.h>
-#include <isl/val_type.h>
+#include "isl/val_type.h"
 #include <isl/stdint.h>
-#include <isl/stride_info.h>
+#include "isl/stride_info.h"
 #include <isl/fixed_box.h>
 
 #if defined(__cplusplus)

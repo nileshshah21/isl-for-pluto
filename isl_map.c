@@ -32,13 +32,13 @@
 #include "isl_equalities.h"
 #include <isl_lp_private.h>
 #include <isl_seq.h>
-#include <isl/set.h>
+#include "isl/set.h"
 #include <isl/map.h>
 #include <isl_reordering.h>
 #include "isl_sample.h"
 #include <isl_sort.h>
 #include "isl_tab.h"
-#include <isl/vec.h>
+#include "isl/vec.h"
 #include <isl_mat_private.h>
 #include <isl_vec_private.h>
 #include <isl_dim_map.h>

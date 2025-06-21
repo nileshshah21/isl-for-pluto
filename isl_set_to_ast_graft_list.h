@@ -1,7 +1,7 @@
 #ifndef ISL_SET_TO_GRAFT_LIST_H
 #define ISL_SET_TO_GRAFT_LIST_H
 
-#include <isl/set_type.h>
+#include "isl/set_type.h"
 #include "isl_ast_graft_private.h"
 #include "isl_maybe_ast_graft_list.h"
 

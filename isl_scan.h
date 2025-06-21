@@ -10,8 +10,8 @@
 #ifndef ISL_SCAN_H
 #define ISL_SCAN_H
 
-#include <isl/set.h>
-#include <isl/vec.h>
+#include "isl/set.h"
+#include "isl/vec.h"
 
 struct isl_scan_callback {
 	isl_stat (*add)(struct isl_scan_callback *cb,

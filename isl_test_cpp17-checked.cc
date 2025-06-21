@@ -3,7 +3,7 @@
 #include <exception>
 #include <iostream>
 
-#include <isl/options.h>
+#include "isl/options.h"
 #include <isl/cpp-checked.h>
 
 /* Select the "checked" interface.

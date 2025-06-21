@@ -2,7 +2,7 @@
 #define ISL_VEC_PRIVATE_H
 
 #include <isl_blk.h>
-#include <isl/vec.h>
+#include "isl/vec.h"
 
 #include "isl_reordering.h"
 

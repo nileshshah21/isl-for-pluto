@@ -1,5 +1,5 @@
 #include <string.h>
-#include <isl/val_gmp.h>
+#include "isl/val_gmp.h"
 #include <isl_val_private.h>
 
 /* Return a reference to an isl_val representing the integer "z".

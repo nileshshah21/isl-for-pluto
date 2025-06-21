@@ -12,8 +12,8 @@
 #include <string.h>
 
 #include <isl/id.h>
-#include <isl/stream.h>
-#include <isl/val.h>
+#include "isl/stream.h"
+#include "isl/val.h"
 #include <isl_ast_private.h>
 
 #undef EL_BASE

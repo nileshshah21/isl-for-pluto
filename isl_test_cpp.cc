@@ -14,7 +14,7 @@
 
 #include <map>
 
-#include <isl/options.h>
+#include "isl/options.h"
 #include <isl/typed_cpp.h>
 
 static void die_impl(const char *file, int line, const char *message)

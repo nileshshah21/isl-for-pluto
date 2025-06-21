@@ -8,7 +8,7 @@
  */
 
 #include <isl_ctx_private.h>
-#include <isl/vec.h>
+#include "isl/vec.h"
 #include <isl_options_private.h>
 
 #define __isl_calloc(type,size)		((type *)calloc(1, size))

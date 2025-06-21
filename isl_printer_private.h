@@ -1,7 +1,7 @@
 #ifndef ISL_PRINTER_PRIVATE_H
 #define ISL_PRINTER_PRIVATE_H
 
-#include <isl/printer.h>
+#include "isl/printer.h"
 #include <isl_yaml.h>
 #include <isl/id_to_id.h>
 

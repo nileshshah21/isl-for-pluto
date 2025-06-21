@@ -12,9 +12,9 @@
  */
 
 #include <isl/id.h>
-#include <isl/val.h>
-#include <isl/space.h>
-#include <isl/set.h>
+#include "isl/val.h"
+#include "isl/space.h"
+#include "isl/set.h"
 #include <isl_schedule_band.h>
 #include <isl_schedule_private.h>
 #include <isl_schedule_node_private.h>

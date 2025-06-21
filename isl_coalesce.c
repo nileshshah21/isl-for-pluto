@@ -23,7 +23,7 @@
 #include <isl_ctx_private.h>
 #include "isl_map_private.h"
 #include <isl_seq.h>
-#include <isl/options.h>
+#include "isl/options.h"
 #include "isl_tab.h"
 #include <isl_mat_private.h>
 #include <isl_local_space_private.h>

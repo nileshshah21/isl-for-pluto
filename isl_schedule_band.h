@@ -3,7 +3,7 @@
 
 #include <isl/aff.h>
 #include <isl/ast_type.h>
-#include <isl/union_map.h>
+#include "isl/union_map.h"
 
 /* Information about a band within a schedule.
  *

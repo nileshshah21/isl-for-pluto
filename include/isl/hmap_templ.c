@@ -12,7 +12,7 @@
 
 #include <isl/ctx.h>
 #include <isl/hash.h>
-#include <isl/stream.h>
+#include "isl/stream.h"
 
 #define ISL_xCAT(A,B) A ## B
 #define ISL_CAT(A,B) ISL_xCAT(A,B)

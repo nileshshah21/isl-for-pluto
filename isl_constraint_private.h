@@ -3,7 +3,7 @@
 
 #include <isl/constraint.h>
 #include <isl/local_space.h>
-#include <isl/vec.h>
+#include "isl/vec.h"
 
 struct isl_constraint {
 	int ref;

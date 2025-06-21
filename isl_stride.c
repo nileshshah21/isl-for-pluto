@@ -7,11 +7,11 @@
  * Ecole Normale Superieure, 45 rue d'Ulm, 75230 Paris, France
  */
 
-#include <isl/val.h>
+#include "isl/val.h"
 #include <isl_map_private.h>
 #include <isl_aff_private.h>
 #include <isl/constraint.h>
-#include <isl/set.h>
+#include "isl/set.h"
 
 /* Stride information about a specific set dimension.
  * The values of the set dimension are equal to

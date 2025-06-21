@@ -2,9 +2,9 @@
 #define ISL_AST_BUILD_H
 
 #include <isl/ctx.h>
-#include <isl/set.h>
+#include "isl/set.h"
 #include <isl/ast.h>
-#include <isl/schedule.h>
+#include "isl/schedule.h"
 
 #if defined(__cplusplus)
 extern "C" {

@@ -3,7 +3,7 @@
 #include <exception>
 #include <sstream>
 
-#include <isl/options.h>
+#include "isl/options.h"
 #include <isl/cpp.h>
 
 /* Throw a runtime exception.

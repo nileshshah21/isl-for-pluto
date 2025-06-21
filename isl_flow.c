@@ -16,16 +16,16 @@
  * and Ecole Normale Superieure, 45 rue d'Ulm, 75230 Paris, France
  */
 
-#include <isl/val.h>
-#include <isl/space.h>
-#include <isl/set.h>
+#include "isl/val.h"
+#include "isl/space.h"
+#include "isl/set.h"
 #include <isl/map.h>
-#include <isl/union_set.h>
-#include <isl/union_map.h>
+#include "isl/union_set.h"
+#include "isl/union_map.h"
 #include <isl/flow.h>
-#include <isl/schedule_node.h>
+#include "isl/schedule_node.h"
 #include <isl_sort.h>
-#include <isl/stream.h>
+#include "isl/stream.h"
 
 enum isl_restriction_type {
 	isl_restriction_type_empty,

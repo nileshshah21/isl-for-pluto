@@ -1,6 +1,6 @@
 #include <isl/ctx.h>
 #include <isl/maybe.h>
-#include <isl/printer.h>
+#include "isl/printer.h"
 
 #if defined(__cplusplus)
 extern "C" {

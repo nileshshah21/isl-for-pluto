@@ -31,7 +31,7 @@
 #include <isl_id_private.h>
 #include <isl/constraint.h>
 #include <isl_seq.h>
-#include <isl/set.h>
+#include "isl/set.h"
 #include <isl_val_private.h>
 #include <isl_point_private.h>
 #include <isl_config.h>

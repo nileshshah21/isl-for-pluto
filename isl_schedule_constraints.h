@@ -1,7 +1,7 @@
 #ifndef ISL_SCHEDULE_CONSTRAINTS_H
 #define ISL_SCHEDULE_CONSTRAINTS_H
 
-#include <isl/schedule.h>
+#include "isl/schedule.h"
 
 enum isl_edge_type {
 	isl_edge_validity = 0,

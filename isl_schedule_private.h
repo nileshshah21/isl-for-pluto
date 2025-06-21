@@ -2,7 +2,7 @@
 #define ISL_SCHEDLUE_PRIVATE_H
 
 #include <isl/aff.h>
-#include <isl/schedule.h>
+#include "isl/schedule.h"
 #include <isl_schedule_tree.h>
 
 /* A complete schedule tree.

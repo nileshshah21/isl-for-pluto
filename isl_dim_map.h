@@ -2,7 +2,7 @@
 #define ISL_DIM_MAP_H
 
 #include <isl/ctx.h>
-#include <isl/space.h>
+#include "isl/space.h"
 #include <isl/map.h>
 #include <isl_reordering.h>
 

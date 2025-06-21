@@ -12,9 +12,9 @@
  */
 
 #include <isl/ctx.h>
-#include <isl/space.h>
+#include "isl/space.h"
 #include <isl/local_space.h>
-#include <isl/union_map.h>
+#include "isl/union_map.h"
 #include <isl_map_private.h>
 #include <isl_aff_private.h>
 #include <isl_vec_private.h>

@@ -1,5 +1,5 @@
 #include <isl_int.h>
-#include <isl/stream.h>
+#include "isl/stream.h"
 #include <isl_yaml.h>
 
 struct isl_token {

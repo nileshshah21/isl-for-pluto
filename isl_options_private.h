@@ -1,7 +1,7 @@
 #ifndef ISL_OPTIONS_PRIVATE_H
 #define ISL_OPTIONS_PRIVATE_H
 
-#include <isl/options.h>
+#include "isl/options.h"
 
 struct isl_options {
 	#define			ISL_CONTEXT_GBR		0

@@ -1,7 +1,7 @@
 #ifndef ISL_SCHEDLUE_NODE_PRIVATE_H
 #define ISL_SCHEDLUE_NODE_PRIVATE_H
 
-#include <isl/schedule_node.h>
+#include "isl/schedule_node.h"
 #include <isl_schedule_band.h>
 #include <isl_schedule_tree.h>
 

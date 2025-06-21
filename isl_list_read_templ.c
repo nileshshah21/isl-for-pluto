@@ -6,7 +6,7 @@
  * Written by Sven Verdoolaege.
  */
 
-#include <isl/stream.h>
+#include "isl/stream.h"
 
 #include <isl_list_macro.h>
 

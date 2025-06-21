@@ -2,9 +2,9 @@
 #define ISL_SCHEDLUE_TREE_H
 
 #include <isl_schedule_band.h>
-#include <isl/schedule.h>
-#include <isl/set.h>
-#include <isl/union_set.h>
+#include "isl/schedule.h"
+#include "isl/set.h"
+#include "isl/union_set.h"
 
 struct isl_schedule_tree;
 typedef struct isl_schedule_tree isl_schedule_tree;

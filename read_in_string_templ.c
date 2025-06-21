@@ -1,4 +1,4 @@
-#include <isl/stream.h>
+#include "isl/stream.h"
 
 #define xCAT(A,B) A ## B
 #define CAT(A,B) xCAT(A,B)

@@ -10,14 +10,14 @@
  * and Ecole Normale Superieure, 45 rue d'Ulm, 75230 Paris, France
  */
 
-#include <isl/val.h>
-#include <isl/space.h>
+#include "isl/val.h"
+#include "isl/space.h"
 #include <isl_map_private.h>
 #include <isl_aff_private.h>
 #include <isl/constraint.h>
 #include <isl/ilp.h>
 #include <isl/fixed_box.h>
-#include <isl/stream.h>
+#include "isl/stream.h"
 
 /* Representation of a box of fixed size containing the elements
  * [offset, offset + size).

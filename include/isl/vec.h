@@ -13,8 +13,8 @@
 #include <stdio.h>
 
 #include <isl/ctx.h>
-#include <isl/val_type.h>
-#include <isl/printer.h>
+#include "isl/val_type.h"
+#include "isl/printer.h"
 
 #if defined(__cplusplus)
 extern "C" {

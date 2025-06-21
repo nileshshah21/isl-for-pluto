@@ -7,8 +7,8 @@
  * Cerebras Systems, 175 S San Antonio Rd, Los Altos, CA, USA
  */
 
-#include <isl/space.h>
-#include <isl/set.h>
+#include "isl/space.h"
+#include "isl/set.h"
 
 /* Given a piecewise function on a domain (A -> B),
  * interchange A and B in the wrapped domain

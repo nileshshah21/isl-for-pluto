@@ -15,7 +15,7 @@
 
 #include <isl_sort.h>
 #include <isl_tarjan.h>
-#include <isl/printer.h>
+#include "isl/printer.h"
 
 #include <isl_list_macro.h>
 

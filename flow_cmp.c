@@ -9,9 +9,9 @@
 #include <stdlib.h>
 
 #include <isl/arg.h>
-#include <isl/options.h>
-#include <isl/union_map.h>
-#include <isl/stream.h>
+#include "isl/options.h"
+#include "isl/union_map.h"
+#include "isl/stream.h"
 
 struct options {
 	struct isl_options *isl;

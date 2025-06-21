@@ -22,12 +22,12 @@
 #include <isl/hash.h>
 #include <isl/id.h>
 #include <isl/constraint.h>
-#include <isl/schedule.h>
+#include "isl/schedule.h"
 #include <isl_schedule_constraints.h>
-#include <isl/schedule_node.h>
+#include "isl/schedule_node.h"
 #include <isl_mat_private.h>
 #include <isl_vec_private.h>
-#include <isl/set.h>
+#include "isl/set.h"
 #include <isl_union_set_private.h>
 #include <isl_seq.h>
 #include <isl_tab.h>

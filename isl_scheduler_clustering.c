@@ -9,8 +9,8 @@
 #include "isl_map_private.h"
 
 #include <isl/id.h>
-#include <isl/schedule_node.h>
-#include <isl/union_set.h>
+#include "isl/schedule_node.h"
+#include "isl/union_set.h"
 
 #include "isl_mat_private.h"
 #include "isl_scheduler_clustering.h"

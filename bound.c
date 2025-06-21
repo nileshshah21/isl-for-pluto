@@ -1,10 +1,10 @@
 #include <assert.h>
-#include <isl/stream.h>
+#include "isl/stream.h"
 #include <isl_map_private.h>
-#include <isl/polynomial.h>
+#include "isl/polynomial.h"
 #include <isl_scan.h>
-#include <isl/val.h>
-#include <isl/options.h>
+#include "isl/val.h"
+#include "isl/options.h"
 
 struct bound_options {
 	struct isl_options	*isl;

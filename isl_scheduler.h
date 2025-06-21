@@ -7,11 +7,11 @@
 #include <isl/map_type.h>
 #include <isl/map_to_basic_set.h>
 #include <isl/mat.h>
-#include <isl/space_type.h>
-#include <isl/set_type.h>
-#include <isl/val_type.h>
-#include <isl/vec.h>
-#include <isl/union_map_type.h>
+#include "isl/space_type.h"
+#include "isl/set_type.h"
+#include "isl/val_type.h"
+#include "isl/vec.h"
+#include "isl/union_map_type.h"
 
 #include "isl_schedule_constraints.h"
 #include "isl_tab.h"

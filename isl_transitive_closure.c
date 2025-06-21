@@ -14,7 +14,7 @@
 #include <isl_seq.h>
 #include <isl_space_private.h>
 #include <isl_lp_private.h>
-#include <isl/union_map.h>
+#include "isl/union_map.h"
 #include <isl_mat_private.h>
 #include <isl_vec_private.h>
 #include <isl_options_private.h>

@@ -7,7 +7,7 @@
  * Cerebras Systems, 175 S San Antonio Rd, Los Altos, CA, USA
  */
 
-#include <isl/space.h>
+#include "isl/space.h"
 
 #include "isl_multi_macro.h"
 

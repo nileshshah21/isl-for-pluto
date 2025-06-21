@@ -10,7 +10,7 @@
 #ifndef ISL_EQUALITIES_H
 #define ISL_EQUALITIES_H
 
-#include <isl/set.h>
+#include "isl/set.h"
 #include <isl/mat.h>
 
 #if defined(__cplusplus)

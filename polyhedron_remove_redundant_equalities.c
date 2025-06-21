@@ -11,9 +11,9 @@
  * of integer points.
  */
 
-#include <isl/options.h>
-#include <isl/printer.h>
-#include <isl/set.h>
+#include "isl/options.h"
+#include "isl/printer.h"
+#include "isl/set.h"
 
 #include "isl_morph.h"
 

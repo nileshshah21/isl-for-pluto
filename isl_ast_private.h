@@ -3,11 +3,11 @@
 
 #include <isl/aff.h>
 #include <isl/ast.h>
-#include <isl/set.h>
+#include "isl/set.h"
 #include <isl/map.h>
-#include <isl/vec.h>
+#include "isl/vec.h"
 #include <isl/list.h>
-#include <isl/stream.h>
+#include "isl/stream.h"
 
 #undef EL
 #define EL isl_ast_expr

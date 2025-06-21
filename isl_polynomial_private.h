@@ -3,7 +3,7 @@
 #include <isl/map.h>
 #include <isl/mat.h>
 #include <isl_morph.h>
-#include <isl/polynomial.h>
+#include "isl/polynomial.h"
 #include <isl_local.h>
 #include <isl_reordering.h>
 #include "isl_list_private.h"

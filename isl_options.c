@@ -14,8 +14,8 @@
 #include <isl/ctx.h>
 #include <isl_options_private.h>
 #include <isl/ast_build.h>
-#include <isl/schedule.h>
-#include <isl/version.h>
+#include "isl/schedule.h"
+#include "isl/version.h"
 
 struct isl_arg_choice isl_pip_context_choice[] = {
 	{"gbr",		ISL_CONTEXT_GBR},

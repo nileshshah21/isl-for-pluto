@@ -9,8 +9,8 @@
 #include <stdlib.h>
 
 #include <isl/arg.h>
-#include <isl/options.h>
-#include <isl/schedule.h>
+#include "isl/options.h"
+#include "isl/schedule.h"
 
 struct options {
 	struct isl_options *isl;

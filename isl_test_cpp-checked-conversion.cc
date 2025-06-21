@@ -9,7 +9,7 @@
 #include <stdlib.h>
 
 #include <isl/ctx.h>
-#include <isl/options.h>
+#include "isl/options.h"
 #include <isl/cpp-checked-conversion.h>
 
 /* Check that converting a NULL object from the checked C++ bindings

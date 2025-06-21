@@ -10,7 +10,7 @@
 #include <isl_ctx_private.h>
 #include <isl_map_private.h>
 #include "isl_sample.h"
-#include <isl/vec.h>
+#include "isl/vec.h"
 #include <isl/mat.h>
 #include <isl_seq.h>
 #include "isl_equalities.h"

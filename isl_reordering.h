@@ -1,7 +1,7 @@
 #ifndef ISL_REORDERING_H
 #define ISL_REORDERING_H
 
-#include <isl/space.h>
+#include "isl/space.h"
 
 /* "pos" has "src_len" entries and maps original dimensions to new dimensions.
  * The final space is given by "space".

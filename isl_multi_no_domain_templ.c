@@ -7,7 +7,7 @@
  * Ecole Normale Superieure, 45 rue d'Ulm, 75230 Paris, France
  */
 
-#include <isl/space.h>
+#include "isl/space.h"
 #include <isl/local_space.h>
 #include <isl_reordering.h>
 

@@ -7,7 +7,7 @@
  * Ecole Normale Superieure, 45 rue d'Ulm, 75230 Paris, France
  */
 
-#include <isl/stream.h>
+#include "isl/stream.h"
 
 #include <isl_list_macro.h>
 

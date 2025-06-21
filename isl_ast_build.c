@@ -11,14 +11,14 @@
  */
 
 #include <isl/id.h>
-#include <isl/val.h>
-#include <isl/space.h>
+#include "isl/val.h"
+#include "isl/space.h"
 #include <isl/map.h>
 #include <isl/aff.h>
 #include <isl/constraint.h>
 #include <isl/map.h>
-#include <isl/union_set.h>
-#include <isl/union_map.h>
+#include "isl/union_set.h"
+#include "isl/union_map.h"
 #include <isl_ast_build_private.h>
 #include <isl_ast_private.h>
 #include <isl_config.h>

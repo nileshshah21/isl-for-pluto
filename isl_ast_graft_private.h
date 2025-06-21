@@ -3,10 +3,10 @@
 
 #include <isl/ast.h>
 #include <isl/ast_build.h>
-#include <isl/set.h>
+#include "isl/set.h"
 #include <isl/list.h>
-#include <isl/printer.h>
-#include <isl/stream.h>
+#include "isl/printer.h"
+#include "isl/stream.h"
 
 struct isl_ast_graft;
 typedef struct isl_ast_graft isl_ast_graft;

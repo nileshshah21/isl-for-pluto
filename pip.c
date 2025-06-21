@@ -11,15 +11,15 @@
 #include <string.h>
 #include <isl_map_private.h>
 #include <isl/aff.h>
-#include <isl/set.h>
+#include "isl/set.h"
 #include "isl_sample.h"
 #include "isl_scan.h"
 #include <isl_seq.h>
 #include <isl_ilp_private.h>
-#include <isl/printer.h>
+#include "isl/printer.h"
 #include <isl_point_private.h>
 #include <isl_vec_private.h>
-#include <isl/options.h>
+#include "isl/options.h"
 #include <isl_config.h>
 
 /* The input of this program is the same as that of the "example" program

@@ -1,8 +1,8 @@
 #ifndef ISL_VERTICES_PRIVATE_H
 #define ISL_VERTICES_PRIVATE_H
 
-#include <isl/set.h>
-#include <isl/vertices.h>
+#include "isl/set.h"
+#include "isl/vertices.h"
 
 #if defined(__cplusplus)
 extern "C" {

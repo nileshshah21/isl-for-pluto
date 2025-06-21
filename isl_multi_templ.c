@@ -10,7 +10,7 @@
 
 #include <isl/id.h>
 #include <isl_space_private.h>
-#include <isl/set.h>
+#include "isl/set.h"
 #include <isl_reordering.h>
 
 #include <isl_multi_macro.h>
