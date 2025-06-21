@@ -10,8 +10,8 @@
 #ifndef ISL_OPTIONS_H
 #define ISL_OPTIONS_H
 
-#include <isl/arg.h>
-#include <isl/ctx.h>
+#include "isl/arg.h"
+#include "isl/ctx.h"
 
 #if defined(__cplusplus)
 extern "C" {

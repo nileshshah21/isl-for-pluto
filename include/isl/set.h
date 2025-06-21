@@ -10,17 +10,17 @@
 #ifndef ISL_SET_H
 #define ISL_SET_H
 
-#include <isl/id_type.h>
-#include <isl/map_type.h>
-#include <isl/aff_type.h>
-#include <isl/list.h>
-#include <isl/mat.h>
+#include "isl/id_type.h"
+#include "isl/map_type.h"
+#include "isl/aff_type.h"
+#include "isl/list.h"
+#include "isl/mat.h"
 #include <isl/point.h>
-#include <isl/local_space.h>
+#include "isl/lp_space.h"
 #include <isl/val_type.h>
 #include <isl/stdint.h>
 #include <isl/stride_info.h>
-#include <isl/fixed_box.h>
+#include "isl/fixed_box.h"
 
 #if defined(__cplusplus)
 extern "C" {

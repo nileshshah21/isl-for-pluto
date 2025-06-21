@@ -8,7 +8,7 @@
 
 #include <stdlib.h>
 
-#include <isl/ctx.h>
+#include "isl/ctx.h"
 #include <isl/options.h>
 #include <isl/cpp-checked-conversion.h>
 

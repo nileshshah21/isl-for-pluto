@@ -9,7 +9,7 @@
 
 #include <isl_ctx_private.h>
 #include <isl_map_private.h>
-#include <isl/lp.h>
+#include "isl/lp.h"
 #include <isl_seq.h>
 #include "isl_tab.h"
 #include <isl_options_private.h>

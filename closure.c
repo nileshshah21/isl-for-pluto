@@ -1,5 +1,5 @@
 #include <assert.h>
-#include <isl/map.h>
+#include "isl/map.h"
 #include <isl/options.h>
 
 int main(int argc, char **argv)

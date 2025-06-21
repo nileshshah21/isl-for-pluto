@@ -2,9 +2,9 @@
 #define ISL_PRINTER_H
 
 #include <stdio.h>
-#include <isl/ctx.h>
+#include "isl/ctx.h"
 #include <isl/printer_type.h>
-#include <isl/id_type.h>
+#include "isl/id_type.h"
 
 #if defined(__cplusplus)
 extern "C" {

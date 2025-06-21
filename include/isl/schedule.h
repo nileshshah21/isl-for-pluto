@@ -4,10 +4,10 @@
 #include <isl/union_set_type.h>
 #include <isl/union_map_type.h>
 #include <isl/schedule_type.h>
-#include <isl/aff_type.h>
+#include "isl/aff_type.h"
 #include <isl/space_type.h>
 #include <isl/set_type.h>
-#include <isl/list.h>
+#include "isl/list.h"
 #include <isl/printer_type.h>
 
 #if defined(__cplusplus)

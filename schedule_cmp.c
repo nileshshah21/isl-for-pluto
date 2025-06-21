@@ -8,7 +8,7 @@
 
 #include <stdlib.h>
 
-#include <isl/arg.h>
+#include "isl/arg.h"
 #include <isl/options.h>
 #include <isl/schedule.h>
 

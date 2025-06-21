@@ -1,7 +1,7 @@
 #ifndef ISL_AST_TYPE_H
 #define ISL_AST_TYPE_H
 
-#include <isl/list.h>
+#include "isl/list.h"
 
 #if defined(__cplusplus)
 extern "C" {

@@ -1,9 +1,9 @@
 #ifndef ISL_LOCAL_SPACE_PRIVATE_H
 #define ISL_LOCAL_SPACE_PRIVATE_H
 
-#include <isl/mat.h>
+#include "isl/mat.h"
 #include <isl/set.h>
-#include <isl/local_space.h>
+#include "isl/lp_space.h"
 
 struct isl_local_space {
 	int ref;

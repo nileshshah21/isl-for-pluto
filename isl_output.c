@@ -27,14 +27,14 @@
 #include <isl_vec_private.h>
 #include <isl/union_set.h>
 #include <isl/union_map.h>
-#include <isl/constraint.h>
+#include "isl/constraint.h"
 #include <isl_local.h>
 #include <isl_local_space_private.h>
 #include <isl_aff_private.h>
 #include <isl_id_private.h>
 #include <isl_val_private.h>
 #include <isl_constraint_private.h>
-#include <isl/ast_build.h>
+#include "isl/arg_build.h"
 #include <isl_sort.h>
 #include <isl_output_private.h>
 

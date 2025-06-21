@@ -6,7 +6,7 @@
 #define ISL_STRIDE_INFO_H
 
 #include <isl/val_type.h>
-#include <isl/aff_type.h>
+#include "isl/aff_type.h"
 
 #if defined(__cplusplus)
 extern "C" {

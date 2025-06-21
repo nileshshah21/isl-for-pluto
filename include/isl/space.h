@@ -10,9 +10,9 @@
 #ifndef ISL_SPACE_H
 #define ISL_SPACE_H
 
-#include <isl/ctx.h>
+#include "isl/ctx.h"
 #include <isl/space_type.h>
-#include <isl/id_type.h>
+#include "isl/id_type.h"
 #include <isl/printer.h>
 
 #if defined(__cplusplus)

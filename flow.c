@@ -13,7 +13,7 @@
 #include <isl/options.h>
 #include <isl/printer.h>
 #include <isl/union_map.h>
-#include <isl/flow.h>
+#include "isl/flow.h"
 #include <isl/schedule.h>
 
 int main(int argc, char **argv)

@@ -20,8 +20,8 @@
 
 #include <assert.h>
 #include <stdlib.h>
-#include <isl/ast.h>
-#include <isl/ast_build.h>
+#include "isl/arg.h"
+#include "isl/arg_build.h"
 #include <isl/options.h>
 #include <isl/space.h>
 #include <isl/set.h>

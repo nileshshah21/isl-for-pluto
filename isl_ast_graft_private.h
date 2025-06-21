@@ -1,10 +1,10 @@
 #ifndef ISL_AST_GRAFT_PRIVATE_H
 #define ISL_AST_GRAFT_PRIVATE_H
 
-#include <isl/ast.h>
-#include <isl/ast_build.h>
+#include "isl/arg.h"
+#include "isl/arg_build.h"
 #include <isl/set.h>
-#include <isl/list.h>
+#include "isl/list.h"
 #include <isl/printer.h>
 #include <isl/stream.h>
 

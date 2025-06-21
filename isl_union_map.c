@@ -17,10 +17,10 @@
 
 #include <isl_map_private.h>
 #include <isl_union_map_private.h>
-#include <isl/ctx.h>
-#include <isl/hash.h>
+#include "isl/ctx.h"
+#include "isl/hash.h"
 #include <isl_aff_private.h>
-#include <isl/map.h>
+#include "isl/map.h"
 #include <isl/set.h>
 #include <isl_space_private.h>
 #include <isl/union_set.h>

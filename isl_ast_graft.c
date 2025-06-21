@@ -12,7 +12,7 @@
  * and Cerebras Systems, 175 S San Antonio Rd, Los Altos, CA, USA
  */
 
-#include <isl/id.h>
+#include "isl/id.h"
 #include <isl/space.h>
 #include <isl/stream.h>
 #include <isl_ast_private.h>

@@ -12,9 +12,9 @@
 #define ISL_MORHP_H
 
 #include <stdio.h>
-#include <isl/id_type.h>
+#include "isl/id_type.h"
 #include <isl/space.h>
-#include <isl/mat.h>
+#include "isl/mat.h"
 #include <isl/set.h>
 
 #if defined(__cplusplus)

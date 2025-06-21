@@ -24,9 +24,9 @@
 #include <isl_map_private.h>
 #include <isl_aff_private.h>
 #include <isl_space_private.h>
-#include <isl/id.h>
+#include "isl/id.h"
 #include <isl/set.h>
-#include <isl/flow.h>
+#include "isl/flow.h"
 #include <isl_constraint_private.h>
 #include <isl/polynomial.h>
 #include <isl/union_set.h>
@@ -36,9 +36,9 @@
 #include <isl/schedule_node.h>
 #include <isl_options_private.h>
 #include <isl_vertices_private.h>
-#include <isl/ast_build.h>
+#include "isl/arg_build.h"
 #include <isl/val.h>
-#include <isl/ilp.h>
+#include "isl/ilp.h"
 #include <isl_ast_build_expr.h>
 #include <isl/options.h>
 

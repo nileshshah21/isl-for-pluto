@@ -13,7 +13,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-#include <isl/arg.h>
+#include "isl/arg.h"
 
 #ifndef __isl_give
 #define __isl_give

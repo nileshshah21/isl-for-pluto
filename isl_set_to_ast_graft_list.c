@@ -1,4 +1,4 @@
-#include <isl/ctx.h>
+#include "isl/ctx.h"
 #include <isl/set_type.h>
 #include "isl_ast_graft_private.h"
 #include "isl_set_to_ast_graft_list.h"
@@ -18,4 +18,4 @@
 #define ISL_KEY_READ		isl_stream_read_set
 #define ISL_VAL_READ		isl_stream_read_ast_graft_list
 
-#include <isl/hmap_templ.c>
+#include "isl/hmap_templ.c"

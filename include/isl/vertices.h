@@ -1,7 +1,7 @@
 #ifndef ISL_VERTICES_H
 #define ISL_VERTICES_H
 
-#include <isl/aff_type.h>
+#include "isl/aff_type.h"
 #include <isl/set_type.h>
 
 #if defined(__cplusplus)

@@ -13,7 +13,7 @@
  * 78153 Le Chesnay Cedex France
  */
 
-#include <isl/hash.h>
+#include "isl/hash.h"
 #include <isl_union_macro.h>
 
 /* A group of expressions defined over the same domain space "domain_space".

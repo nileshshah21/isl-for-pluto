@@ -11,7 +11,7 @@
 #define ISL_INT_H
 #define ISL_DEPRECATED_INT_H
 
-#include <isl/hash.h>
+#include "isl/hash.h"
 #include <isl/printer.h>
 #include <string.h>
 #include <isl_config.h>

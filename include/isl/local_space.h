@@ -1,10 +1,10 @@
 #ifndef ISL_LOCAL_SPACE_H
 #define ISL_LOCAL_SPACE_H
 
-#include <isl/aff_type.h>
+#include "isl/aff_type.h"
 #include <isl/space_type.h>
 #include <isl/printer.h>
-#include <isl/map_type.h>
+#include "isl/map_type.h"
 
 #if defined(__cplusplus)
 extern "C" {

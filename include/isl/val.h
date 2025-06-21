@@ -2,9 +2,9 @@
 #define ISL_VAL_H
 
 #include <isl/stdint.h>
-#include <isl/ctx.h>
-#include <isl/list.h>
-#include <isl/multi.h>
+#include "isl/ctx.h"
+#include "isl/list.h"
+#include "isl/multi.h"
 #include <isl/printer.h>
 #include <isl/val_type.h>
 

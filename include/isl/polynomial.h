@@ -1,14 +1,14 @@
 #ifndef ISL_POLYNOMIAL_H
 #define ISL_POLYNOMIAL_H
 
-#include <isl/ctx.h>
-#include <isl/constraint.h>
+#include "isl/ctx.h"
+#include "isl/constraint.h"
 #include <isl/space_type.h>
 #include <isl/set_type.h>
 #include <isl/point.h>
 #include <isl/printer.h>
 #include <isl/union_set_type.h>
-#include <isl/aff_type.h>
+#include "isl/aff_type.h"
 #include <isl/polynomial_type.h>
 #include <isl/val_type.h>
 

@@ -1,7 +1,7 @@
 #ifndef ISL_MAT_PRIVATE_H
 #define ISL_MAT_PRIVATE_H
 
-#include <isl/mat.h>
+#include "isl/mat.h"
 #include <isl_blk.h>
 
 struct isl_mat {

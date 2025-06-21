@@ -10,8 +10,8 @@
  * and Ecole Normale Superieure, 45 rue d’Ulm, 75230 Paris, France
  */
 
-#include <isl/ctx.h>
-#include <isl/hash.h>
+#include "isl/ctx.h"
+#include "isl/hash.h"
 #include <isl/stream.h>
 
 #define ISL_xCAT(A,B) A ## B

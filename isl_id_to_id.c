@@ -1,6 +1,6 @@
-#include <isl/ctx.h>
-#include <isl/id_to_id.h>
-#include <isl/id.h>
+#include "isl/ctx.h"
+#include "isl/id_to_id.h"
+#include "isl/id.h"
 
 #define isl_id_is_equal(id1,id2)	isl_bool_ok(id1 == id2)
 
@@ -17,4 +17,4 @@
 #define ISL_KEY_READ		isl_stream_read_id
 #define ISL_VAL_READ		isl_stream_read_id
 
-#include <isl/hmap_templ.c>
+#include "isl/hmap_templ.c"

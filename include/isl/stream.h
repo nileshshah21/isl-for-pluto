@@ -11,9 +11,9 @@
 #define ISL_STREAM_H
 
 #include <stdio.h>
-#include <isl/hash.h>
-#include <isl/aff_type.h>
-#include <isl/obj.h>
+#include "isl/hash.h"
+#include "isl/aff_type.h"
+#include "isl/obj.h"
 #include <isl/val_type.h>
 #include <isl/schedule_type.h>
 

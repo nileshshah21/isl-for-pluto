@@ -4,7 +4,7 @@
 #include <stdio.h>
 
 #include <isl/set_type.h>
-#include <isl/map_type.h>
+#include "isl/map_type.h"
 #include <isl/union_set_type.h>
 #include <isl/union_map_type.h>
 #include <isl/schedule.h>

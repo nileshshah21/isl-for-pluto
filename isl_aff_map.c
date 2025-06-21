@@ -11,9 +11,9 @@
  * and Ecole Normale Superieure, 45 rue d'Ulm, 75230 Paris, France
  */
 
-#include <isl/ctx.h>
+#include "isl/ctx.h"
 #include <isl/space.h>
-#include <isl/local_space.h>
+#include "isl/lp_space.h"
 #include <isl/union_map.h>
 #include <isl_map_private.h>
 #include <isl_aff_private.h>

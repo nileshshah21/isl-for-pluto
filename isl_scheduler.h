@@ -1,12 +1,12 @@
 #ifndef ISL_SCHEDULER_H
 #define ISL_SCHEDULER_H
 
-#include <isl/aff_type.h>
-#include <isl/hash.h>
-#include <isl/id_type.h>
-#include <isl/map_type.h>
-#include <isl/map_to_basic_set.h>
-#include <isl/mat.h>
+#include "isl/aff_type.h"
+#include "isl/hash.h"
+#include "isl/id_type.h"
+#include "isl/map_type.h"
+#include "isl/map_to_basic_set.h"
+#include "isl/mat.h"
 #include <isl/space_type.h>
 #include <isl/set_type.h>
 #include <isl/val_type.h>

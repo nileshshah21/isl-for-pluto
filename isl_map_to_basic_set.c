@@ -1,5 +1,5 @@
-#include <isl/map_to_basic_set.h>
-#include <isl/map.h>
+#include "isl/map_to_basic_set.h"
+#include "isl/map.h"
 #include <isl/set.h>
 
 #define ISL_KEY		isl_map
@@ -15,4 +15,4 @@
 #define ISL_KEY_READ		isl_stream_read_map
 #define ISL_VAL_READ		isl_stream_read_basic_set
 
-#include <isl/hmap_templ.c>
+#include "isl/hmap_templ.c"

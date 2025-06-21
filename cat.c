@@ -1,5 +1,5 @@
 #include <assert.h>
-#include <isl/obj.h>
+#include "isl/obj.h"
 #include <isl/printer.h>
 #include <isl/stream.h>
 #include <isl/options.h>

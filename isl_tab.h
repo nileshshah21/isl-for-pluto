@@ -11,9 +11,9 @@
 #define ISL_TAB_H
 
 #include "isl_int.h"
-#include <isl/lp.h>
-#include <isl/map.h>
-#include <isl/mat.h>
+#include "isl/lp.h"
+#include "isl/map.h"
+#include "isl/mat.h"
 #include <isl/set.h>
 #include <isl_config.h>
 

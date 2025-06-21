@@ -1,7 +1,7 @@
 #ifndef ISL_SCHEDULER_SCC_H
 #define ISL_SCHEDULER_SCC_H
 
-#include <isl/ctx.h>
+#include "isl/ctx.h"
 
 #include "isl_scheduler.h"
 #include "isl_scheduler_clustering.h"

@@ -8,7 +8,7 @@
  */
 
 #include <isl/space.h>
-#include <isl/local_space.h>
+#include "isl/lp_space.h"
 
 #include <isl_multi_macro.h>
 
