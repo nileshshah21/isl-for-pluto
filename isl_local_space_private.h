@@ -3,7 +3,7 @@
 
 #include "isl/mat.h"
 #include "isl/set.h"
-#include "isl/lp_space.h"
+#include "isl/local_space.h"
 
 struct isl_local_space {
 	int ref;

@@ -2,7 +2,7 @@
 #define ISL_CONSTRAINT_PRIVATE_H
 
 #include "isl/constraint.h"
-#include "isl/lp_space.h"
+#include "isl/local_space.h"
 #include "isl/vec.h"
 
 struct isl_constraint {

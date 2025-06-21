@@ -1,7 +1,7 @@
 #include "isl/ctx.h"
 #include "isl/id.h"
 #include "isl/space.h"
-#include "isl/lp_space.h"
+#include "isl/local_space.h"
 #include "isl/set.h"
 #include "isl/map.h"
 #include "isl/union_set.h"

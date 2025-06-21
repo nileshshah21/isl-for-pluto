@@ -17,7 +17,7 @@
 #include "isl/vec.h"
 #include "isl/mat.h"
 #include "isl/printer.h"
-#include "isl/lp_space.h"
+#include "isl/local_space.h"
 #include "isl/aff_type.h"
 #include "isl/list.h"
 #include "isl/map_type.h"

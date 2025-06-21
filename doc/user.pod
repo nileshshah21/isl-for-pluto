@@ -597,7 +597,7 @@ in which the object was created.
 	isl_ctx *isl_multi_id_get_ctx(
 		__isl_keep isl_multi_id *mi);
 
-	#include "isl/lp_space.h"
+	#include "isl/local_space.h"
 	isl_ctx *isl_local_space_get_ctx(
 		__isl_keep isl_local_space *ls);
 
@@ -1228,7 +1228,7 @@ C<isl_dim_out> (only for relations), C<isl_dim_set>
 	isl_size isl_space_dim(__isl_keep isl_space *space,
 		enum isl_dim_type type);
 
-	#include "isl/lp_space.h"
+	#include "isl/local_space.h"
 	isl_size isl_local_space_dim(__isl_keep isl_local_space *ls,
 		enum isl_dim_type type);
 
@@ -1346,7 +1346,7 @@ L</"Functions">.
 		__isl_keep isl_space *space,
 		enum isl_dim_type type, unsigned pos);
 
-	#include "isl/lp_space.h"
+	#include "isl/local_space.h"
 	__isl_give isl_local_space *isl_local_space_set_dim_id(
 		__isl_take isl_local_space *ls,
 		enum isl_dim_type type, unsigned pos,
@@ -1549,7 +1549,7 @@ its position can be obtained from the following functions.
 	int isl_space_find_dim_by_name(__isl_keep isl_space *space,
 		enum isl_dim_type type, const char *name);
 
-	#include "isl/lp_space.h"
+	#include "isl/local_space.h"
 	int isl_local_space_find_dim_by_name(
 		__isl_keep isl_local_space *ls,
 		enum isl_dim_type type, const char *name);
@@ -1665,7 +1665,7 @@ using the following functions.
 		__isl_keep isl_space *space,
 		enum isl_dim_type type);
 
-	#include "isl/lp_space.h"
+	#include "isl/local_space.h"
 	__isl_give isl_local_space *isl_local_space_set_tuple_id(
 		__isl_take isl_local_space *ls,
 		enum isl_dim_type type, __isl_take isl_id *id);
@@ -2000,13 +2000,13 @@ using the following functions.
 
 A new local space can be created from a space using
 
-	#include "isl/lp_space.h"
+	#include "isl/local_space.h"
 	__isl_give isl_local_space *isl_local_space_from_space(
 		__isl_take isl_space *space);
 
 They can be inspected, modified, copied and freed using the following functions.
 
-	#include "isl/lp_space.h"
+	#include "isl/local_space.h"
 	isl_bool isl_local_space_is_params(
 		__isl_keep isl_local_space *ls);
 	isl_bool isl_local_space_is_set(
@@ -5593,7 +5593,7 @@ in the domain of the input function.
 	isl_space_range_wrapped_range(
 		__isl_take isl_space *space);
 
-	#include "isl/lp_space.h"
+	#include "isl/local_space.h"
 	__isl_give isl_local_space *isl_local_space_domain(
 		__isl_take isl_local_space *ls);
 	__isl_give isl_local_space *isl_local_space_range(
@@ -5826,7 +5826,7 @@ on a given parameter domain using the following functions.
 	__isl_give isl_space *isl_space_set_from_params(
 		__isl_take isl_space *space);
 
-	#include "isl/lp_space.h"
+	#include "isl/local_space.h"
 	__isl_give isl_local_space *
 	isl_local_space_set_from_params(
 		__isl_take isl_local_space *ls);
@@ -5897,7 +5897,7 @@ specifies both the domain and the range of the result.
 		__isl_take isl_space *domain,
 		__isl_take isl_space *range);
 
-	#include "isl/lp_space.h"
+	#include "isl/local_space.h"
 	__isl_give isl_local_space *isl_local_space_from_domain(
 		__isl_take isl_local_space *ls);
 
@@ -6827,7 +6827,7 @@ the overapproximation), then you will get an error message.
 	__isl_give isl_space *isl_space_unwrap(
 		__isl_take isl_space *space);
 
-	#include "isl/lp_space.h"
+	#include "isl/local_space.h"
 	__isl_give isl_local_space *isl_local_space_wrap(
 		__isl_take isl_local_space *ls);
 
@@ -6869,7 +6869,7 @@ then the name of the space is also removed.
 	__isl_give isl_space *isl_space_flatten_range(
 		__isl_take isl_space *space);
 
-	#include "isl/lp_space.h"
+	#include "isl/local_space.h"
 	__isl_give isl_local_space *
 	isl_local_space_flatten_domain(
 		__isl_take isl_local_space *ls);
@@ -6945,7 +6945,7 @@ variables of a set, a basic relation that, when applied to
 a basic set, has essentially the same effect as C<isl_basic_set_lift>,
 can be constructed using the following function.
 
-	#include "isl/lp_space.h"
+	#include "isl/local_space.h"
 	__isl_give isl_basic_map *isl_local_space_lifting(
 		__isl_take isl_local_space *ls);
 
@@ -7281,7 +7281,7 @@ are not sufficient.
 		enum isl_dim_type src_type, unsigned src_pos,
 		unsigned n);
 
-	#include "isl/lp_space.h"
+	#include "isl/local_space.h"
 	__isl_give isl_local_space *isl_local_space_add_dims(
 		__isl_take isl_local_space *ls,
 		enum isl_dim_type type, unsigned n);
@@ -7452,7 +7452,7 @@ the same (number of) parameters.
 
 =item * Intersection
 
-	#include "isl/lp_space.h"
+	#include "isl/local_space.h"
 	__isl_give isl_local_space *isl_local_space_intersect(
 		__isl_take isl_local_space *ls1,
 		__isl_take isl_local_space *ls2);

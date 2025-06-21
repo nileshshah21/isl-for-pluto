@@ -3,7 +3,7 @@
 
 #include <isl_int.h>
 #include "isl/val.h"
-#include "isl/lp_space.h"
+#include "isl/local_space.h"
 #include <isl_reordering.h>
 
 /* Represents a "value", which may be an integer value, a rational value,

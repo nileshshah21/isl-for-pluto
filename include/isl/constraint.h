@@ -10,7 +10,7 @@
 #ifndef ISL_CONSTRAINT_H
 #define ISL_CONSTRAINT_H
 
-#include "isl/lp_space.h"
+#include "isl/local_space.h"
 #include "isl/space_type.h"
 #include "isl/aff_type.h"
 #include "isl/set_type.h"
