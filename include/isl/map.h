@@ -22,7 +22,7 @@
 #include "isl/list.h"
 #include "isl/map_type.h"
 #include "isl/val_type.h"
-#include <isl/stdint.h>
+#include stdint.h
 #include "isl/stride_info.h"
 #include "isl/fixed_box.h"
 
